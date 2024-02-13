@@ -1,3 +1,13 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 p {
-    text-decoration: line-through;
+    margin-left: 30px;
+    margin-right: 30px;
 }

@@ -15,3 +15,79 @@ nav {
     background-color: antiquewhite;
     font-size: 16px;
 }
+nav > ul {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+nav a {
+    display: block;
+    color: #717171;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    color: #717171;
+    list-style: none;
+    transition: 0.5s;
+}
+nav > ul > li > a {
+    padding: 15px 25px;
+}
+nav ul>li.dropdown > a:after{
+    position: relative;
+    float: right;
+    content: '';
+    margin-left: 10px;
+    margin-top: 8px;
+}
+nav > ul >li:hover{
+    text-decoration: underline;
+}
+nav ul.menu-area{
+    padding: 40px 40px 0 40px;
+    background-color: antiquewhite;
+    text-align: left;
+    box-shadow: 0 5px 10px black;
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    top: -9999px;
+    left: 0;
+}
+nav ul li:hover ul.menu-area{
+    top: 100%
+}
+nav ul.menu-area ul{
+    width: 25%;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+}
+nav ul.menu-area h4{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+nav ul.menu-area ul li{
+    display: block;
+}
+nav ul.menu-area ul li a {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+}
+nav ul.menu-area ul li a:hover{
+    color: rgb(107, 107, 107);
+}

@@ -11,17 +11,11 @@ p {
     margin-left: 30px;
     margin-right: 30px;
 }
-
-.nav {
-    text-align: center;
-}
-.nav a {
-    text-decoration: none;
-}
 footer {
     text-align: center;
-    
+    list-style-type: none;
 }
-footer a {
+.footer a {
     text-decoration: none;
+    text-transform: uppercase;
 }

@@ -18,7 +18,7 @@ body {
 }
 nav {
     position: absolute;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     font-size: 16px;
 }
 nav > ul {
@@ -35,12 +35,12 @@ nav > ul {
 }
 nav a {
     display: block;
-    color: #717171;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
 }
 nav ul li {
-    color: #717171;
+    color: #000000;
     list-style: none;
     transition: 0.5s;
 }
@@ -59,9 +59,10 @@ nav > ul >li:hover{
 }
 nav ul.menu-area{
     padding: 40px 40px 0 40px;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     text-align: left;
     box-shadow: 0 5px 10px black;
+    border-radius: 20px;
     z-index: 1;
     position: absolute;
     display: -webkit-flex;

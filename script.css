@@ -36,6 +36,13 @@ h1 {
     justify-content: space-evenly;
 }
 
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+}
+
+
 #port-box1{
     width: 250px;
     height: 320px;

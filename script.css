@@ -38,8 +38,17 @@ h1 {
 
 .content-table{
     border-collapse: collapse;
-    margin: 25px 0;
-    min-width: 400px;
+    margin: 35px 0;
+    min-width: 600px;
+    font-size: x-large;
+}
+
+.content-table thead tr {
+    background-color: #5a5a5a7a;
+    text-align: left;
+}
+.content-table tbody tr {
+    border: 1px solid rgb(72, 72, 72);
 }
 
 

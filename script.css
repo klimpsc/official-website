@@ -42,6 +42,39 @@ h1 {
     border: 5px solid;
     border-radius: 10px;
     text-align: center;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+#port-box2{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(181, 234, 242);
+    display: inline-block;
+}
+#port-box3{
+    width: 250px;
+    height: 320px;
+    border: 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(210, 150, 225);
+    display: inline-block;
+
+    transform: scaleX(0.5);
+}
+#port-box4{
+    width: 250px;
+    height: 320px;
+    border: 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(159, 234, 141);
+    display: inline-block;
+
+    transform: scaleY(0.5);
 }
 
 .box{
